@@ -1,0 +1,1495 @@
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility ;
+    -webkit-font-smoothing: antialiased ;
+    color: #000;
+    width: 100% ;
+    height: 100% ;
+    margin: auto;
+
+}
+
+/* TITRES : A PROPOS, TARIFS PORTFOLIO, CONTACT*/
+h2{
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #B5CFE9;
+}
+h3{
+    color: #4a5258;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: -5.5px;
+}
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+                                    /* navigation*/
+
+
+
+.cd-nav__contact li :hover{
+ color: #818a7c;
+     -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.cd-nav{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+.cd-nav__contact{
+overflow: hidden;
+}
+.cd-nav__content{
+overflow: hidden;
+}
+li.adre-nav{
+font-weight: lighter;
+line-height: 28px;
+}
+ul .cd-nav__primary{
+    margin-top: 0px;
+}
+span.sur-titre{
+    font-size: 12px;
+    color: #818a7c;
+    text-transform: uppercase;
+}
+/* MENU BASE*/
+li.fa-nav{
+font-size: 22px;
+font-weight: lighter;
+}
+ li.adre-nav{
+font-size: 20px;
+line-height: 26px;
+ }
+ h6{
+    font-size: 5em;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    z-index: 0;
+}
+h6 strong{
+    color: #c9c7bb;
+}
+a.cd-nav__link-selected{
+color: #000;
+}
+.nav-fonction{
+    color: #949c87;
+} 
+.nav-fonction-tarifs{
+    color: #949c87;
+}
+.nav-fonction-apropos{
+    color: #949c87;
+}
+.nav-fonction-portfolio{
+    color: #949c87;
+}
+.nav-fonction-contact{
+    color: #949c87;
+}
+
+ h6 i{
+text-transform: lowercase;
+ }
+  @media screen and (max-width: 830px) {
+  h6 i{
+    display: inline-block;
+   font-size: 30px;
+   letter-spacing: 0;
+   
+    }
+}
+   @media screen and (max-width: 830px) {
+  h6 strong{
+    display: inline-block;
+   font-size: 30px;
+   letter-spacing: 0;
+   
+    }
+}   
+   @media screen and (min-width: 1280px) {
+  h6 strong{
+    display: inline-block;
+   font-size: 95px;
+   letter-spacing:-3px;
+   
+    }
+} 
+a.lien-oclok{
+    letter-spacing: 0;
+    font-size: 40px;
+    text-decoration: none;
+    color: #818a7c;
+}
+   @media screen and (max-width: 830px) {
+  a.lien-oclok{
+   display: inline-block;
+   font-size: 16px;
+   letter-spacing: 0;
+   line-height: 110%;
+    }
+} 
+a.lien-oclok:hover{
+   color: #fff;
+}
+.cd-nav-trigger{
+    margin: auto;
+    width: 54px;
+    height:54px; 
+    box-shadow: 2px 0px 5px 2px #4a5258;
+    border-color:  none;
+}
+
+img.circle-dp{
+    position: absolute;
+    display: inline;
+    width: 50px;
+    height:50px;
+    margin-top: -24px;
+    margin-left: -18px;
+    padding-right: 5px;
+}
+
+
+.grid{
+    overflow: hidden;
+
+}
+.nav-is-open{
+	overflow: hidden;
+}
+
+
+
+
+                       /* BOUTON*/
+
+
+/* BONTON envoyer */
+.btn-default1 {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+   background : 0;;
+    padding: 4px 20px;
+    padding: 14px 20px;
+    margin: 0;
+    border : 0;
+     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.btn-default1:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+ background-color:#b02f25; 
+ box-shadow: 5px 6px 8px -5px #2e3236 inset;
+ color: #5e1914;
+}
+                                            /* ACCUEIL*/
+
+
+div.text-component{
+    padding-top: 140px;
+}
+
+div.cd-main__content{
+    position: absolute;
+    width: 100%;
+    /*height: 100vh;*/
+    padding-bottom: 10px;
+    display: table;
+    box-shadow: -8px 6px 10px -13px #000;
+
+
+}
+                                        
+/* accueil section */
+#accueil {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+div .logo1 {
+    position: relative;
+    z-index: 999;
+    animation-name:fadeInDown;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInDown;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        top: -900px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        top: -900px;
+    }
+    to {
+        top: 0px;
+    }
+}
+/* R dans patrick */
+span.r{
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000 ;
+    opacity: 0.3;
+    font-size: 0.9em;
+    font-weight: lighter;
+ 
+    /* Safari 4.0 - 8.0 */
+}
+
+/* M dans dumas */
+span.m{
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000;
+    opacity: 0.3;
+     font-size: 0.9em;
+    font-weight: lighter;
+
+}
+/* dumas patrick*/
+h1{
+	display: inline-block;
+    font-size: 7.6em;
+    letter-spacing: -8px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    z-index: 0;
+    /*text-shadow:1px 2px 8px #000;*/
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name:fadeInUp;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -o-animation-name: fadeInUp;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+}
+h1 span{
+	line-height: 120px;
+}
+.fonctions{
+	margin-top: -40px;
+}
+/* freelance*/
+p.fonction1 {
+    display: inline-block;
+    color: #9E9C9C;
+     font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 2px 3px #000;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: #eb1a1a;
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    animation-name: fadeInUp  ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInUp ;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    -o-animation-name: fadeInUp ;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+}
+
+/* le R fleelance*/
+p span.fonction6{
+    color: #d4b319;
+}
+/* le R fleelance*/
+p span.fonction7{
+    color: #10a5c7;
+}
+/* le R fleelance*/
+p span.fonction8{
+    color: #38a32a;
+}
+/* graphiste*/
+p.fonction2 {
+    display: inline-block;
+    position: relative;
+    color:#a8b3a2;
+    margin-left: 7px;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-family: 'Yesteryear', cursive;
+    /*text-shadow:1px 2px 8px #fff;*/
+
+}
+/* base maquettiste*/
+p.fonction3{
+    position: relative;
+    display: inline-block;
+
+}
+/*M*/
+span.fonction4{
+ color: #000;
+ padding-right: 3px;
+    font-size: 2em;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+/* aquettiste */
+span.fonction5 {
+    color: #a8b3a2;
+    position: relative;
+    display: inline-block;
+    border: 0.3px solid #a8b3a2;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+	padding-right: 5px;	
+	padding-left: 5px;
+}
+/* VILLE*/
+div.ville {
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #a8b3a2;
+    letter-spacing: 10px;
+    font-family: 'Oswald', sans-serif;
+    animation-name: fadeInUp;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    -o-animation-name: fadeInUp;
+    -o-animation-duration: 5s;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+}
+hr{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+
+}
+
+                                                /* APROPOS*/
+                                                
+
+#apropos{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+
+/* APROPOS moi*/
+.imagepropos {
+    position:relative;
+    text-align: center;
+    border: 0.3px solid #fff;
+    width: 30%;
+   
+    opacity: 0.5;
+    box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+
+/* DEBUT RECTO VERSO APORPOS */
+
+/* APROPOS bloc verso */
+div.flipcard.h {
+    background-color: transparent;
+    max-width: 100%;
+    height: 290px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+}
+/* largeur bloc */
+  @media screen and (min-width: 1280px) {
+  .flipcard.h {
+    margin: auto;
+    width: 60%;
+    }
+}
+
+/* APROPOS recto  */
+.front-h {
+    color: #fff;
+    position:absolute;
+    transition: all 0.3s ease-in;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: transparent;
+    backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+        -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+/* largeur bloc */
+  @media screen and (max-width: 630px) {
+  .front-h{
+    padding: 5px;
+    width: 100%;
+    }
+}
+/* APROPOS verso */
+.back-h{
+  border-radius: 12px;
+  background-color: #b1e35b;
+  /* border: 8px solid #dbcd2e;*/
+  position:absolute;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+  color: #000;
+  padding: 35px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+      -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+   /* box-shadow: 0px 26px 31px -22px #2e3236;
+ box-shadow: 30px 50px 100px -50px #2e3236 ;*/
+}
+/* largeur bloc */
+  @media screen and (max-width: 630px) {
+  .back-h{
+    padding: 5px;
+    width: 100%;
+    }
+}
+/* APROPOS  effet recto verso */
+.flipcard.h:hover .front-h, .flipcard.h.flip .front-h{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  
+}
+.flipcard.h:hover .back-h, .flipcard.h.flip .back-h{
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+}
+.flipcard.h .back-h{
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  
+}
+
+/* APROPOS texte normal recto verso*/
+p.card-h-text{
+   color: #fff;
+    margin: auto;
+    line-height:30px;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
+}
+/* largeur bloc */
+  @media screen and (max-width: 415px) {
+  p.card-h-text{
+  padding: 10px;
+  font-size: 14px;
+  line-height:20px;
+    }
+}
+.card-h-text.back{
+    color:  #fff;
+}
+/* APROPOS texte bold recto verso*/
+.card-h-text strong {
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+     line-height:30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+  @media screen and (max-width: 415px) {
+  .card-h-text strong {
+   padding: 10px;
+   font-size: 18px;
+   line-height:24px;
+    }
+}
+/* APROPOS lettrine recto et verso */
+.lettrine1 {
+    font-size: 70px;
+    color: #83a646;
+    letter-spacing: -18px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+   
+}
+  @media screen and (max-width: 415px) {
+.lettrine1 {
+   font-size: 30px;
+    }
+}
+/* APROPOS lettrine recto et verso */
+span.lettrine2 {
+    font-size: 70px;
+    color: #83a646;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+   
+}
+  @media screen and (max-width: 415px) {
+  span.lettrine2 {
+   font-size: 30px;
+    }
+}
+/* FIN RECTO VERSO APORPOS */
+
+
+/*  APROPOS PARAGRAPHE DES 3 INFOS TITRES */
+h4.titreenplus {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    letter-spacing: 6px;
+    font-family: 'Oswald', sans-serif;
+}
+  @media screen and (max-width: 740px) {
+  h4.titreenplus  {
+   text-align: center;
+    }
+}
+
+/* APROPOS PARAGRAPHE DES 3 INFOS TEXTE .*/
+p.textenplus {
+    color: #353b40;
+    line-height:28px;
+    text-align: left;
+    font-style: italic;
+    letter-spacing: 0px;
+}
+  @media screen and (max-width: 740px) {
+  p.textenplus {
+   text-align: center;
+    }
+}
+/* APROPOS les 3 icones*/
+i.apropos-icone {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #a8b3a2;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fadeInUp;
+    text-shadow: 0px 2px 3px  #4a5258;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    moz-animation-name: fadeInUp;
+    moz-animation-duration: 1.5s;
+    moz-animation-fill-mode: forwards;
+    -o-animation-name: fadeInUp;
+    -o-animation-duration: 1.5s;
+    -o-animation-fill-mode: forwards;
+}
+
+
+
+
+
+                                                /*TARIFS*/
+
+#tarifs{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+.container-tarifs{
+width: 100%;
+margin: auto;
+padding-bottom: 50px;
+}
+  @media screen and (min-width: 1280px) {
+  .container-tarifs {
+    margin: auto;
+    max-width: 56%;
+    }
+}
+.tarifs-devis {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #a8b3a2;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+
+/* TARIFS selection crea + je suis acc………*/
+.anime2 {
+    padding-bottom: 0;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.anime2.letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* TARIFS (Dépendant…*/
+.tarifs-depend {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #a8b3a2;
+    width: 70%;
+    padding: 8px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    background-color:#818a7c;
+    font-weight: lighter;
+}
+/* TARIFS ligne prix ht /TVA*/
+.petit1{
+    font-size: 13px;
+    margin-top:  20px;
+    margin-bottom: 30px;
+    color: #4a5258;
+}
+div.base-tableau{
+	max-width:100px: 
+	margin: auto;
+}
+
+/* TARIFS TABLEAU base*/
+div.cellule{
+    letter-spacing: 0.3px;
+    font-family: 'Oswald', sans-serif;
+    background-color:transparent;
+}
+
+ul.base-cel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-bottom: 0.02px solid #fff;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+}
+ul.base-cel:hover{ 
+ background-color:#a8b3a2;
+ width: 100%;
+ margin-top: -2px;
+ padding-left: -30px;
+ border-radius : 5px;
+ border-bottom: 0px solid #fff;
+}
+/* div.fond-tableau:hover{
+    opacity: 1;
+}
+/* largeur bloc */
+ /*  @media screen and (min-width: 1280px) {
+  .basetableau {
+    margin: auto;
+    max-width: 66%;
+    }
+}*/
+
+/* TARIFS: TABLEAU SUPPORTS*/
+.tableau-text {
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    flex-basis: auto; 
+    width:70%;
+    text-align: left;
+    font-size: 16px;
+    padding:15px;
+    color: #fff;
+    font-weight: lighter;
+
+}
+.tableau-text:hover{
+font-weight: bolder;
+
+   /* text-shadow: 1px 1px 2px #2c3628; */  
+}
+li.fadeInUp{
+	/* border-bottom: 0.3px solid #fff; */  
+}
+
+/* TARIFS: TABLEAU PRIX*/
+.tableau-prix{
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    flex-basis: auto; 
+    width: 30%;
+    height: auto;
+    text-align: right;
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: lighter;
+    /*background-color: #eff5f6;*/
+}
+.tableau-prix:hover{
+font-weight: bolder;
+color: #fff;
+}
+
+    /* text-shadow: 1px 1px 2px #2c3628; */  
+}
+.tableau-text em {
+    font-size: 14px;
+    font-weight: lighter;
+}
+li.fadeInUp:hover{
+color: #fff;
+}
+
+div.imagePlus{
+    position: absolute;
+    text-align: left;
+   padding-right: 30px;
+    margin-left: -340px;
+    margin-top: 200px;
+    width: 350px;
+    height:400px;
+    
+}
+.imagePlus h4{
+    color: #a8b3a2;
+    text-transform: uppercase;
+    opacity: 0.1;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bolder;
+}
+  @media screen and (max-width: 1200px) {
+  .imagePlus h4{
+display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+                                                /*PORTFOLIO*/
+
+ #portfolio{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+ #portfolio2{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+ 
+img #portfolio{
+        width: 100vh;
+    height: 100%; 
+}
+
+/* texte : selection non exhaustive*/
+h2.anime1 {
+    padding-bottom: 50px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+strong.para3{
+color: #4a5258;
+    }
+h2.anime1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+h4.anime1 {
+    padding-bottom: 30px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+h4.anime1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+  @media screen and (max-width: 415px) {
+#works{
+max-width: 300px;
+    }
+}
+div.work-box{
+width: 100%;
+height: 
+margin: 0;
+padding-bottom: 20px;
+}
+.work-box:hover{
+    position: relative;
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+}
+.work-box:hover img {
+filter: blur(15px);
+-webkit-filter: blur(15px);
+ opacity: 0.5;
+ -webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
+
+}
+
+/* cadre  portfolio +fond */
+img.img-responsive{
+    
+}
+
+
+h5.hover-text{
+   position: absolute;
+    z-index: 9;
+    padding : 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    color:#fff;
+    font-size: 10px;
+    text-transform:  uppercase;
+    font-family: 'Oswald', sans-serif;
+     -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+
+}
+
+h5.hover-text:hover {
+    position: absolute;
+    padding-top: 12px;
+  opacity: 1;
+}
+@media screen and (min-width: 1180px) {
+    h5.hover-text:hover {
+        padding-top: 30px;
+       font-size: 14px;
+    }
+}
+@media screen and (min-width: 1490px) {
+    h5.hover-text:hover {
+        padding-top: 50px;
+       font-size: 22px;
+    }
+}
+@media screen and (min-width: 250px) {
+    h5.hover-text:hover {
+        padding-top: 30px;
+       font-size: 18px;
+    }
+}
+h5.hover-text span{
+font-weight: lighter;
+font-size: 14px;
+
+}
+                                               /*CONTACT*/
+
+#contact {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.enfant-tel, .enfant-mail, .enfant-adresse {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 35px;
+    border-radius : 5px;
+}
+.enfant-adresse a{
+    border-radius : 3px;
+    padding: 8px;
+    color: #fff;
+    font-size: 24px;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.enfant-adresse a:hover {
+    color: #5e1914;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+p.enfant-adresse i .fa :hover{
+    color: #a8b3a2;
+
+}
+div .info i{
+    margin-top: 40px;
+    margin-right: 4px;
+    color: #a8b3a2;
+}
+/* CONTACT TELEPHONE */
+.enfant-tel a{
+    border-radius : 3px;
+    padding: 8px;
+    font-size: 24px;
+    color: #fff;
+    background-color: none;
+    text-decoration: none;
+    height: 10px;
+    font-weight: lighter;
+}
+p.enfant-tel a:hover {
+    color: #5e1914;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+ box-shadow: 5px 6px 8px -5px #2e3236 inset;
+
+}
+/* CONTACT MAIL */
+.enfant-mail a{
+    border-radius : 3px;
+    padding: 8px;
+    text-align: center;
+    background-color: none;
+    height: 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.enfant-mail a:hover {
+ transition: 0.8;
+ color: #5e1914;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+
+/* DEBUT RECTO VERSO CONTACT */
+
+/* CONTACT ENCADRE RECTO contactez moi pour realiser SUR LA PAGE
+p.texte-recto-v {
+    width: auto;
+    font-size: 22px;
+    background-color: transparent;
+    color: #a8b3a2;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    /*box-shadow:0px 3px 15px #4a5258 inset;*/
+}
+/* @media screen and (max-width: 1024px) {
+    p.gras {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+/* CONTACT ENCADRE RECTO contactez moi TEXTE GRAS*/
+p.gras strong{
+    color : #a8b3a2;
+}
+
+/* CONTACT ENCADRE VERSO contactez moi pour realiser SUR LA PAGE
+p.texte-verso-v {
+    width: auto;
+    font-size: 29px;
+    color: #c21f06;
+    line-height: 36px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 2px #2c3628;   
+    font-family: 'Oswald', sans-serif;
+    /*box-shadow:0px 3px 15px #4a5258 inset;*/
+    }
+@media screen and (max-width: 1024px) {
+    p.texte-verso-v  {
+        font-size: 24px;
+    }
+}
+/* CONTACT base bloc recto verso
+.flipcard.v {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    letter-spacing: 0px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    animation-name: bounceIn;
+    animation-duration: 0.8s;
+    perspective: 500px;
+}
+@media screen and (max-width: 1754px) {
+    .flipcard.v {
+        margin-bottom:90px;
+    }
+}
+@media screen and (max-width: 1224px) {
+    .flipcard.v {
+        margin-bottom:100px;
+    }
+}
+@media screen and (max-width: 741px) {
+    .flipcard.v {
+        margin-bottom:120px;
+    }
+}
+@media screen and (max-width: 614px) {
+    .flipcard.v {
+        margin-bottom:140px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .flipcard.v {
+       margin-bottom:180px;
+       width: 100%;
+    }
+}
+@media screen and (max-width: 336px) {
+    .flipcard.v {
+       margin-bottom:200px;
+       width: 100%;
+    }
+}
+/* CONTACT  effet recto verso 
+.flipcard.v:hover .front-v, .flipcard.v.flip .front-v{
+  transform: rotateX(180deg);
+}
+.flipcard.v:hover .back-v, .flipcard.v.flip .back-v{
+  transform: rotateX(0deg);
+}
+.flipcard.v .back-v{
+  transform: rotateX(-180deg);
+}
+
+
+/* CONTACT - APROPOS recto  */
+.front-v {
+  
+    color: #fff;
+    position:absolute;
+   transition: all 0.3s ease-in;
+    width: 100%;
+    padding: 40px 20px 40px  20px;
+    background-color: #818a7c;
+    backface-visibility: hidden;
+    box-shadow: 0px 6px 10px -6px #000;
+
+}
+/* CONTACT - APROPOS verso */
+.back-v{
+  position:absolute;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+  color: #000;
+  padding: 40px 20px 40px  20px;
+  backface-visibility: hidden;
+
+}
+
+
+/* FIN RECTO VERSO CONTACT */
+
+@media screen and (min-width: 1400px) {
+   .formulaire{
+        width:40%;
+    }
+}
+label {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    color: #a8b3a2;
+}
+.form-group{
+color: #fff;
+margin-top: 40px;
+}
+.form-group:hover{
+color: #fff;
+margin-top: 40px;
+}
+/*FORMULAIRE CONTACT*/
+.form-control {
+    display: block;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 
+    -webkit-box-shadow: transparent;
+    opacity: 1;
+    height:60px;
+}
+#message{
+    background-color: transparent;
+    text-decoration-style:none;
+    border: none;
+    border: transparent;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+#email{
+    background-color: transparent;
+    text-decoration-style:none; 
+    border: transparent;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+#name{
+    background-color: transparent;
+    text-decoration-style:none; 
+    border: transparent;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+#name:hover, #email:hover, #message:hover{
+    background-color: #b02f25;
+    box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+     font-family: 'Oswald', sans-serif;
+
+}
+.form-control:-moz-placeholder {
+    color:#fff;
+     font-family: 'Oswald', sans-serif;
+}
+.form-control::-moz-placeholder {
+    color: #fff;
+     font-family: 'Oswald', sans-serif;
+}
+.form-control:-ms-input-placeholder {
+    color: #fff;
+     font-family: 'Oswald', sans-serif;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+    display:block;
+}
+
+
+div.imagePlus2{
+    position: absolute;
+    text-align: left;
+   padding-right: 30px;
+    margin-left: 300px;
+    margin-top: 400px;
+    width: 550px;
+    height:auto;
+    
+}
+
+
+.imagePlus2 h4{
+    color: #a8b3a2;
+    text-transform: uppercase;
+    opacity: 0.1;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bolder;
+}
+  @media screen and (max-width: 1480px) {
+  .imagePlus2 h4{
+display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.social {
+    margin-top: 100px;
+}
+
+.fa .fa-twitter .fa-2x{
+    padding: 20px;
+    margin: 20px;
+}
+#contact .social ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.social a i.fa {
+    font-size: 28px;
+    padding: 10px;
+    margin: 20px;
+    color:#a8b3a2;
+    transition: all 0.5s;
+}
+.social a i.fa:hover {
+    color: #fff;
+    border: 0.3px solid #fff;
+}
+/* CONTACT copyright © */
+.lignefin {
+    letter-spacing: 0px;
+    color: #fff;
+    width: 100%;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    /*background-color: #85929e;*/
+    font-size: 12px;
+    /*text-shadow:1px 1px 1px #000;
+    box-shadow:0px 1px 1px #4a5258;*/
+}
+
+.social{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+}
+
